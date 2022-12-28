@@ -1,0 +1,121 @@
+.app{
+  margin: 0;
+}
+header{
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+  background-color: rgb(241, 129, 37);
+  padding: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+} 
+.logo{
+  color: white;
+  font-size: 18px;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+}
+.btnHeader{
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  user-select: none;
+}
+.btnHeader:hover{
+background-color: rgb(126, 120, 114);
+color: white;
+border: none;
+
+  box-shadow: 7px 9px 17px  black;
+}
+.bannerSection{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+ 
+}
+
+.banner{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  justify-items: end;
+  align-items: center;
+  background-image: url("/public/img/img10.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 50px;
+}
+.banner2{
+  display: grid;
+  grid-template-columns: 2fr 0.1fr;
+  justify-items: end;
+  align-items: center;
+  background-image: url("/public/img/Scr2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+h3{
+  display: grid;
+ margin:10px;
+ color: white;
+}
+h2{
+  display: grid;
+ margin:10;
+ color: white;
+}
+.h3Black{
+  color:black;
+  font-size: 25px;
+  margin: 20px;
+  justify-items: center;
+}
+.imgLogo{
+  width: 40px;
+  margin-left: 20px;
+}
+.imgVibor{
+  width: 590px;
+}
+.liSection{
+display: grid;
+grid-template-columns: 0.8fr 1.2fr;
+align-items: center;
+}
+.imgLi{
+  width: 680px;
+}
+.videoContainer{
+  
+}
+.img05{
+  display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+.imgVertic{
+  height: 500px;
+ 
+}
+.liSection2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  }
+  .Data{
+    font-size: 20px;
+    font-weight: bold;
+  }
+ .Raspisanie{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: start;
+ }
